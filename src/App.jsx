@@ -13,6 +13,7 @@ function App() {
         vip : { name: 'VIP', price: 350, rows : [6,7] },
     }}
     bookedSeats={['A1', 'A2', 'B5', 'C3', 'D7']}
+    onBookingComplete={(booking) => console.log(booking)}
     />
   )
 }
